@@ -1,0 +1,48 @@
+[
+    {
+        "WorkflowName": "NestedInputDemoWorkflow1",
+        "Rules": [
+            {
+                "RuleName": "CheckNestedSimpleProp",
+                "ErrorMessage": "EMployee Not Register",
+                "ErrorType": "Error",
+                "RuleExpressionType": "LambdaExpression",
+                "SuccessMessage": "Employee Data Available",
+                //"Expression": "input1.NestedProp.SimpleProp == \"nestedSimpleProp\""
+                "Expression": " input1.Id== 100 && input1.Name==\"Tom\" "
+            }
+        ]
+    },
+    {
+        "WorkflowName": "NestedInputDemoWorkflow2",
+        "Rules": [
+            {
+                "RuleName": "CheckNestedListProp",
+                "ErrorMessage": "employee Not Register",
+                "ErrorType": "Error",
+                "RuleExpressionType": "LambdaExpression",
+                "SuccessMessage": "Employee Data Available",
+                // "Expression": "input1.NestedProp.ListProp[0].Id == 1 && input1.NestedProp.ListProp[0].Value == \"second\"",
+                "Expression": "input2.Id ==200 && input2.Name=\"Mike\""
+                //"Expression": "input1.ListProp[0].Id == 1 && input1.ListProp[0].Value == \"nagaraju\""
+            }
+        ]
+    },
+
+    {
+        "WorkflowName": "NestedInputDemoWorkflow3",
+        "Rules": [
+            {
+                "RuleName": "CheckNestedListPropFunctions",
+                //"ErrorMessage": "One or more adjust rules failed.",
+                "ErrorType": "Error",
+                "RuleExpressionType": "LambdaExpression",
+                "ErrorMessage": "employee Not Register",
+                "SuccessMessage": "Employee Data Available",
+                //"Expression": "input1.NestedProp.ListProp[1].Value.ToUpper() = \"SECOND\""
+                "Expression": "input3.Id ==300 && input3.Name=\"Pam\""
+
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+D:\Practice\RulesConsole\bin\Debug\ConsoleApp3.exe.config
+D:\Practice\RulesConsole\bin\Debug\ConsoleApp3.exe
+D:\Practice\RulesConsole\bin\Debug\ConsoleApp3.pdb
+D:\Practice\RulesConsole\bin\Debug\Newtonsoft.Json.dll
+D:\Practice\RulesConsole\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Practice\RulesConsole\bin\Debug\System.ValueTuple.dll
+D:\Practice\RulesConsole\bin\Debug\FastExpressionCompiler.xml
+D:\Practice\RulesConsole\bin\Debug\FluentValidation.xml
+D:\Practice\RulesConsole\bin\Debug\System.Linq.Dynamic.Core.pdb
+D:\Practice\RulesConsole\bin\Debug\System.Linq.Dynamic.Core.xml
+D:\Practice\RulesConsole\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Practice\RulesConsole\obj\Debug\RulesConsole.csproj.AssemblyReference.cache
+D:\Practice\RulesConsole\obj\Debug\RulesConsole.csproj.SuggestedBindingRedirects.cache
+D:\Practice\RulesConsole\obj\Debug\RulesConsole.csproj.CoreCompileInputs.cache
+D:\Practice\RulesConsole\obj\Debug\RulesConsole.csproj.CopyComplete
+D:\Practice\RulesConsole\obj\Debug\ConsoleApp3.exe
+D:\Practice\RulesConsole\obj\Debug\ConsoleApp3.pdb
